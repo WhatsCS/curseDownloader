@@ -12,7 +12,7 @@ from threading import Thread
 
 parser = argparse.ArgumentParser(description="Download Curse modpack mods")
 parser.add_argument("-m", "--manifest", help="manifest.json file from unzipped pack")
-parser.add_argument("-c", "--MinecraftPath", help="Set's the minecraft path to move files into")
+parser.add_argument("-d", "--MinecraftPath", help="Set's the minecraft path to move files into")
 parser.add_argument("-p", "--portable", dest="portable", action="store_true", help="Use portable cache")
 args, unknown = parser.parse_known_args()
 
